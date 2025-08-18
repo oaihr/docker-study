@@ -34,6 +34,8 @@ docker run -d -p 8080:80 nginx
 # --name : 컨테이너 별칭(이름) 지정
 docker run -d -p 8080:80 --name ngx1 nginx
 docker run -d -p 9090:80 --name ngx2 nginx
+# -p 포트매핑 호스트포트:컨테이너포트
+
 
 # 실행중인 컨테이너 삭제
 docker rm -f ngx1
